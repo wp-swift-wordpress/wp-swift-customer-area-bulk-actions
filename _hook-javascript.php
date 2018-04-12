@@ -14,7 +14,6 @@ function wp_swift_hook_javascript() {
 <script>
 var BulkActionAjax = <?php echo json_encode($bulk_action_ajax); ?>; 
 jQuery(document).ready(function($) {
-	$( "h1" ).after( admin_notice('<p><strong>Settings saved.</strong></p>') );
 	var options = [{value:'publish-post', text:'Publish'},  {value:'publish-post-notify', text:'Publish and Notify'}];
 	var option;
 	var optionTop;
@@ -91,6 +90,7 @@ jQuery(document).ready(function($) {
 		return true;  
 	});
 });
+//$( "h1" ).after( admin_notice('<p><strong>Settings saved.</strong></p>') );
 function admin_notice( $message, $type = 'notice-success' ) {
 	var html = '<div class="notice ' + $type + ' is-dismissible"> ';
 	html += '	' + $message;
