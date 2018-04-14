@@ -10,3 +10,5 @@ License: GPL2
 */
 require_once plugin_dir_path( __FILE__ ) . '_hook-javascript.php';
 require_once plugin_dir_path( __FILE__ ) . '_ajax.php';
+add_action( 'admin_footer', 'wp_swift_hook_javascript' );
+add_action( 'wp_ajax_wp_swift_submit_bulk_action', 'wp_swift_submit_bulk_action_callback' );

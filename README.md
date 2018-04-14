@@ -7,3 +7,15 @@
  * Author: Gary Swift
  * Author URI: https://github.com/wp-swift-wordpress-plugins
  * License: GPL2
+
+## Installation
+
+Add the directory to your plugins folder and activate via the plugins admin page.
+
+## Usage
+
+This will add new custom bulk actions the **WP Customer Area** private files admin page.
+
+![alt text][logo]
+
+[logo]: pic.png "New Bulk Actions"
