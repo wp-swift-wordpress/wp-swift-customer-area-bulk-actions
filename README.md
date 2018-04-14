@@ -18,4 +18,4 @@ This will add new custom bulk actions the **WP Customer Area** private files adm
 
 ![alt text][logo]
 
-[logo]: pic.png "New Bulk Actions"
+[logo]: image.png "New Bulk Actions"
