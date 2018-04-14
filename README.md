@@ -19,3 +19,13 @@ This will add new custom bulk actions the **WP Customer Area** private files adm
 ![alt text][logo]
 
 [logo]: image.png "New Bulk Actions"
+
+The **Publish** bulk action works as expected.
+
+### To-Do
+
+The **Publish and Notify** bulk action is not yet implemented.
+
+### Testing
+
+There is also **Test Ajax** function that make an _ajax_ call to the server and outputs debug information to _debug.log_ Requires WordPress debugging to be turned on).

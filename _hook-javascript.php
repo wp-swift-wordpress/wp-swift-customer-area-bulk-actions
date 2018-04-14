@@ -25,7 +25,7 @@ function wp_swift_hook_javascript() {
 		if ($isFilesPage) {
 
 			// These are the new bulk actions
-			var options = [{value:'publish-post', text:'Publish'},  {value:'publish-post-notify', text:'Publish and Notify'}];//, {value:'test', text:'Test Ajax'}
+			var options = [{value:'publish-post', text:'Publish'}, {value:'publish-post-notify', text:'Publish and Notify'}, {value:'test', text:'Test Ajax'}];
 
 			// Store selected options
 			var option;
