@@ -8,6 +8,21 @@
  * Author URI: https://github.com/wp-swift-wordpress-plugins
  * License: GPL2
 
+
+As of WordPress 4.7 it is possible to add custom bulk actions to any post type. See this example here: 
+
+[https://make.wordpress.org/core/2016/10/04/custom-bulk-actions/](https://make.wordpress.org/core/2016/10/04/custom-bulk-actions/)
+
+This is a useful feature that I wanted to use with **[WP Customer Area - Notifications](http://wp-customerarea.com)** for bulk publishing files.
+
+However, the API does not work with customer area files as it uses it’s own URL structure.
+
+`wp-admin/admin.php?page=wpca-list%2Ccontent%2Ccuar_private_file`
+
+Since the standard methods of adding and handling bulk actions do not work with private files and adding JavaScript using the _admin\_enqueue\_scripts_ function seems to be disabled, I have attempted to do achieve this by adding JavaScript using the _admin\_footer_ function.
+
+This script adds new bulk actions to the DOM and the script handles these actions using Ajax.
+
 ## Installation
 
 Add the directory to your plugins folder and activate via the plugins admin page.
