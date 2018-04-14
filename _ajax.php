@@ -89,7 +89,7 @@ function wp_swift_publish_customer_area_files( $post_ids, $option ) {
                 write_log('$notif_settings: null');
                 write_log("\$extra: null\n");
                 $notice = "<p>Successfully contacted server using <strong>Test Ajax</strong> function on " . date("l jS \of F Y h:i:s A").".</p>".
-                        "<p>No action was was taken but you should open <i>debug.log</i> for more details. (Requires WordPress debugging to be turned on)</p>";
+                        "<p>No action was was taken but you should open <i>debug.log</i> for more details. (Requires WordPress debugging to be turned on.)</p>";
                 $notice_type = 'notice-info';
                 // $notifications->send_test_email();
                 // $notifications->mailer()->send_notification( $user_id, $notification_id );                    

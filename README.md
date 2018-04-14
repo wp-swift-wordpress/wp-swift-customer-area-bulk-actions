@@ -21,7 +21,7 @@ However, the API does not work with customer area files as it uses it’s own UR
 
 Since the standard methods of adding and handling bulk actions do not work with private files and adding JavaScript using the _admin\_enqueue\_scripts_ function seems to be disabled, I have attempted to do achieve this by adding JavaScript using the _admin\_footer_ function.
 
-This script adds new bulk actions to the DOM and the script handles these actions using Ajax.
+This script adds new bulk actions to the DOM and the script handles these actions using ajax.
 
 ## Installation
 
@@ -43,4 +43,4 @@ The **Publish and Notify** bulk action is not yet implemented.
 
 ### Testing
 
-There is also **Test Ajax** function that make an _ajax_ call to the server and outputs debug information to _debug.log_ Requires WordPress debugging to be turned on).
+There is also **Test Ajax** function that makes an ajax call to the server and outputs debug information to _debug.log_ Requires WordPress debugging to be turned on).
